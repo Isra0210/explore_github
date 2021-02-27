@@ -31,7 +31,7 @@ interface Issue {
     login: string;
   }
 }
-
+// eslint-disable-next-line
 const Repository: React.FC = () => {
   const { params } = useRouteMatch<RepositoryParams>();
   const [repository, setRepository] = useState<Repository | null>(null);
